@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher, executor, types
 import os
 
-bot = Bot(token=os.getenv("8101281521:AAED2vrovopOil8FeAX4xHnuHpEvtyZHNhI"))  # Токен берется из переменных окружения
+bot = Bot(token=os.getenv("BOT_TOKEN"))  # Токен берется из переменных окружения
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
